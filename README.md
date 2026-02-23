@@ -2,7 +2,7 @@
 
 ConfigMap indexer for [helmfile2compose](https://github.com/helmfile2compose/helmfile2compose) — indexes ConfigMap manifests into `ctx.configmaps` for volume/env resolution.
 
-**The Librarian** — one of the Seven Bishops, the founding extensions of the helmfile2compose distribution.
+**The Librarian** — one of the Eight Monks, the founding extensions of the helmfile2compose distribution.
 
 > Heresy level: 0/10 — a faithful scribe, nothing more.
 
