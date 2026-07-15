@@ -11,6 +11,8 @@ class ConfigMapIndexer(IndexerConverter):  # pylint: disable=too-few-public-meth
     def convert(self, _kind, manifests, ctx):
         """Index ConfigMap manifests into ctx.configmaps."""
         for m in manifests:
+            if not m:
+                continue
             meta = m.get("metadata") or {}
             name = meta.get("name", "")
             if name:
